@@ -2,16 +2,16 @@
   "name": "front-web",
   "version": "1.0.0",
   "description": "",
+  "keywords": [],
+  "license": "ISC",
+  "author": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "eslint": "^8.6.0",
-    "eslint-config-vue": "^2.0.2",
+    "eslint-config-vue": "workspace:*",
     "prettier": "^2.5.1",
     "typescript": "^4.5.4"
   }
