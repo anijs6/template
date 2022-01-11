@@ -10,8 +10,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "eslint": "^8.6.0",
     "@scope/eslint-config-vue": "workspace:*",
+    "eslint": "^8.6.0",
     "prettier": "^2.5.1",
     "typescript": "^4.5.4"
   }

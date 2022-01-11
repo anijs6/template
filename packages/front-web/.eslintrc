@@ -1,3 +1,4 @@
 {
-  "extends": ["vue"]
+  "root": true,
+  "extends": ["@scope/vue"]
 }
