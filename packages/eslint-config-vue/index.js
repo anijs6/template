@@ -103,6 +103,12 @@ module.exports = {
         'jsdoc/require-returns-type': 'off',
         'jsdoc/require-returns': 'off'
       }
+    },
+    {
+      files: ['vite.config.ts'],
+      rulse: {
+        'import/no-extraneous-dependencies': 'off'
+      }
     }
   ],
   rules: {

@@ -36,5 +36,6 @@
     "source.fixAll.eslint": true
   },
   "eslint.alwaysShowStatus": true,
-  "eslint.format.enable": true
+  "eslint.format.enable": true,
+  "typescript.validate.enable": true
 }
