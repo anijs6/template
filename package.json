@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/anijs6/template#readme",
   "devDependencies": {
-    "lerna": "^4.0.0"
+    "lerna": "^4.0.0",
+    "typescript": "^4.5.4"
   }
 }

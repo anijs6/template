@@ -10,6 +10,8 @@ module.exports = {
     'plugin:jsonc/recommended-with-jsonc',
     'plugin:yml/standard',
     'plugin:unicorn/recommended',
+    'plugin:@typescript-eslint/recommended',
+    'plugin:vue/vue3-recommended',
     'prettier'
   ],
   plugins: ['jsdoc', 'html', 'unicorn', 'prettier'],
@@ -24,6 +26,13 @@ module.exports = {
     }
   },
   overrides: [
+    {
+      files: ['*.vue'],
+      parser: 'vue-eslint-parser',
+      parserOptions: {
+        parser: '@typescript-eslint/parser'
+      }
+    },
     {
       files: ['**/*.js'],
       rules: {

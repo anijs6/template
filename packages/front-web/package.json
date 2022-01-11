@@ -11,7 +11,7 @@
   },
   "devDependencies": {
     "eslint": "^8.6.0",
-    "eslint-config-vue": "workspace:*",
+    "@scope/eslint-config-vue": "workspace:*",
     "prettier": "^2.5.1",
     "typescript": "^4.5.4"
   }
